@@ -58,3 +58,18 @@ for(var i = 1; i <= 5; i++){
     string4 +='\n';
 }
 console.log(string4);
+
+var string5 = '';
+for (var i = 1; i <= 5; i++){
+    for (var j = 1; j <= i; j++){
+        string5 += " ";
+    }
+    for (var k = i; k <= 5; k++){
+        string5 += "*";
+    }
+    for (var l = i+1; l <= 5; l++){
+        string5 += "*";
+    }
+    string5 += "\n";
+}
+console.log(string5)
