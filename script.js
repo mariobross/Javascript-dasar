@@ -72,4 +72,5 @@ for (var i = 1; i <= 5; i++){
     }
     string5 += "\n";
 }
-console.log(string5)
+console.log(string5);
+
