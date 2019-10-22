@@ -7,7 +7,7 @@
 // unshift = menambah isi array dari depan
 // shift = menghapus isi array dari depan 
 // slice = mengambil beberapa array untuk di jadikan array baru
-// splice = menyambung atau menambah array di di bagian tertentu
+// splice = menghapus, menyambung atau menambah array di di bagian tertentu
 // sort = myusun isi array\
 // filter = mencari data pada array yang mengembalikan banyak nilai
 // find = mencari data pada array yang mengembalikan hanya satu nilai
@@ -15,7 +15,7 @@
 
 var arr = ["Saifudin", "Mahara", "belajar", "javascript"];
 
-
+console.log(arr.join(" - "));
 //  1.Menambah Array dengan method push dan unshift
 arr.push('dari', 'sandhika', "galih");
 arr.unshift('semangat');
